@@ -9,12 +9,6 @@ import Characters from './components/Characters'
 import Navbar from './components/Navbar';
 import './fontawesome';
 
-// Swalalert
-import Swal from 'sweetalert2'
-import withReactContent from 'sweetalert2-react-content'
-const MySwal = withReactContent(Swal)
-
-
 const store = createStore(reducer);
 
 function App() {

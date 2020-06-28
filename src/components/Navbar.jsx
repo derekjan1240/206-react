@@ -20,6 +20,7 @@ const useStyles = makeStyles({
 });
 
 function Navbar() {
+    console.log('Render Navbar')
     const history = useHistory();
     const classes = useStyles();
 
